@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zoomcall"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:7:5-71
+15-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:7:22-68
+16    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+16-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:8:5-80
+16-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:8:22-77
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:9:5-68
+17-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:10:5-74
+18-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:10:22-71
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:11:5-68
+19-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:11:22-65
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:12:5-81
+20-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:12:22-78
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:13:5-76
+21-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:13:22-73
+22    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+22-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:14:5-75
+22-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:14:22-72
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:9:5-68
+23-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:9:22-65
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+24-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:10:5-74
+24-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:10:22-71
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:17:5-66
+25-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:17:22-63
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /Users/mohansharma/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.zoomcall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /Users/mohansharma/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /Users/mohansharma/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.zoomcall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] /Users/mohansharma/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /Users/mohansharma/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:20:5-39:19
+34        android:name="com.zoomcall.MainApplication"
+34-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:21:7-38
+35        android:allowBackup="false"
+35-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:25:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] /Users/mohansharma/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:23:7-41
+39        android:label="@string/app_name"
+39-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:22:7-39
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:24:7-52
+41        android:theme="@style/AppTheme" >
+41-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:26:7-38
+42        <activity
+42-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:27:7-38:18
+43            android:name="com.zoomcall.MainActivity"
+43-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:28:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+44-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:30:9-118
+45            android:exported="true"
+45-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:33:9-32
+46            android:label="@string/app_name"
+46-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:29:9-41
+47            android:launchMode="singleTask"
+47-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:31:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:32:9-51
+49            <intent-filter>
+49-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:34:9-37:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:35:13-65
+50-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:35:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:36:13-73
+52-->/Users/mohansharma/Documents/QuizeApp/android/app/src/main/AndroidManifest.xml:36:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/mohansharma/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/mohansharma/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+58            android:authorities="com.zoomcall.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/mohansharma/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/mohansharma/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/mohansharma/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/mohansharma/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/mohansharma/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mohansharma/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mohansharma/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mohansharma/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+66        </provider>
+67
+68        <meta-data
+68-->[com.facebook.soloader:soloader:0.10.5] /Users/mohansharma/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+69            android:name="com.facebook.soloader.enabled"
+69-->[com.facebook.soloader:soloader:0.10.5] /Users/mohansharma/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+70            android:value="false" />
+70-->[com.facebook.soloader:soloader:0.10.5] /Users/mohansharma/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+71    </application>
+72
+73</manifest>

@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/mohansharma/Documents/QuizeApp/android/app"
+    name=":app"
+    type="APP"
+    maven="ZoomCall:app:"
+    agpVersion="8.1.1"
+    buildFolder="build"
+    bootClassPath="/Users/mohansharma/Library/Android/sdk/platforms/android-34/android.jar:/Users/mohansharma/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
